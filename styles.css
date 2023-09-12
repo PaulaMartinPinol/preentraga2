@@ -1,0 +1,108 @@
+/* Estilos generales */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Helvetica", sans-serif;
+  background-color: #f2d4e6; /* Cambiar al tono de malva pastel deseado */
+}
+
+/* Estilos específicos de la página de inicio */
+.page1-content {
+  text-align: left;
+  position: relative;
+  color: white; /* Cambiar el color del texto a blanco */
+  background-image: url('proyecto1_img2.jpg'); /* Cambiar la ruta de la imagen */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* Para que la imagen quede fija en el fondo */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start; /* Alinear el contenido a la izquierda */
+  height: 100vh;
+  padding: 0 10%; /* Añadir espacio a los lados del contenido */
+}
+
+/* Estilos específicos de la página de inicio: Título */
+.page1-title {
+  margin: 0;
+  font-size: 36px;
+  line-height: 1.2;
+  color: white; /* Cambiar el color del título a blanco */
+}
+
+/* Estilos específicos de la página de inicio: Título secundario */
+.page1-title-second {
+  font-size: 36px; /* Cambia el tamaño del segundo título si es necesario */
+  line-height: 1.2;
+  color: white; /* Cambiar el color del segundo título a blanco */
+}
+
+/* Estilos específicos de la página de inicio: Subtítulo */
+.page1-subtitle {
+  font-size: 18px;
+  margin-top: 5px; /* Reducir el margen superior */
+  color: white; /* Cambiar el color del subtítulo a blanco */
+  text-align: left;
+}
+
+/* Estilos de la sección de introducción */
+.intro-section {
+  background-color: #f2d4e6; /* Cambiar al tono de malva pastel deseado */
+  padding: 60px;
+  text-align: center;
+}
+
+/* Estilos del título en la sección de introducción */
+.intro-title {
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: left;
+  color: black; /* Cambiar el color del título a negro */
+}
+
+/* Estilos del subtítulo en la sección de introducción */
+.intro-subtitle {
+  font-size: 18px;
+  margin-top: 10px;
+  color: black; /* Cambiar el color del subtítulo a negro */
+}
+
+/* Estilos del texto en la sección de introducción */
+.intro-text {
+  font-size: 18px;
+  margin-top: 20px;
+  max-width: 50%; /* Limitar el ancho del texto */
+  text-align: left;
+  color: black; /* Cambiar el color del texto a negro */
+}
+
+/* Estilos para las preguntas frecuentes en la página 2 */
+.accordion {
+  margin-top: 30px;
+}
+
+.card {
+  border: none; /* Sin bordes para las tarjetas */
+  margin-bottom: 10px;
+  background-color: transparent; /* Fondo transparente para las tarjetas */
+}
+
+.card-header {
+  background-color: transparent; /* Fondo transparente para los encabezados de tarjetas */
+  border: none;
+}
+
+.card-body {
+  background-color: rgba(255, 255, 255, 0.2); /* Fondo blanco transparente para el cuerpo de la tarjeta */
+  padding: 10px;
+  border-radius: 5px;
+  color: black;
+}
+
+.btn-link {
+  color: black; /* Cambiar el color del enlace a negro */
+  text-decoration: none;
+  font-weight: bold; /* Hacer que los enlaces sean más visibles */
+}
+
