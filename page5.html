@@ -1,22 +1,110 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="styles.css">
+    <style>
+        /* Estilos para la cuadrícula de contacto */
+        .contact-grid {
+            border: none;
+            margin-top: 50px; /* Aumentar la separación superior entre las cuadrículas */
+            margin-bottom: 2%; /* Aumentar la separación inferior entre las cuadrículas */
+            background-color: rgba(255, 255, 255, 0.8); /* Ajustar la opacidad */
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .page5-title {
+            text-align: left; /* Alinear el título a la izquierda */
+            font-size: 36px; /* Tamaño de fuente aumentado */
+            margin-bottom: 40px; /* Aumentar el espacio entre el título y la barra de búsqueda */
+        }
+        .contact-description {
+            text-align: left; /* Alinear el texto a la izquierda */
+            font-size: 18px;
+            margin-bottom: 20px; /* Aumentar el espacio entre el texto y la cuadrícula */
+        }
+        .contact-form {
+            text-align: right; /* Alinear el formulario a la derecha */
+        }
+        .form-group {
+            margin-bottom: 10px; /* Aumentar el espacio entre los campos del formulario */
+        }
+    </style>
 </head>
 <body>
-    <nav class="navbar">
-        <ul class="nav-list">
-            <li><a href="index.html">INICIO</a></li>
-            <li><a href="page2.html">PREGUNTAS FRECUENTES</a></li>
-            <li><a href="page3.html">LISTAS</a></li>
-            <li><a href="page4.html">OPINIONES</a></li>
-            <li><a href="page5.html">CONTACTO</a></li>
-        </ul>
+    <!-- Barra de navegación -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">INICIO</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="page2.html">PREGUNTAS FRECUENTES</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="page3.html">LISTAS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="page4.html">OPINIONES</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="page5.html">CONTACTO</a>
+                </li>
+            </ul>
+        </div>
+        
+        <!-- Barra de búsqueda centrada -->
+        <form class="form-inline ml-auto">
+            <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Buscar">
+            <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Buscar</button>
+        </form>
     </nav>
-    <div class="content">
-        <h1>Contacto</h1>
-        <p>Si tienes alguna pregunta o comentario, no dudes en ponerte en contacto con nosotros.</p>
+    <div class="container">
+        <div class="row">
+            <!-- Título y texto -->
+            <div class="col-lg-6">
+                <h1 class="page5-title">Contacto</h1>
+                <p class="contact-description">
+                    ¿Tienes alguna pregunta o comentario? ¡Déjanos saber! Estamos aquí para ayudarte. Completa el formulario a continuación y te responderemos lo antes posible.
+                </p>
+            </div>
+            <!-- Cuadrícula para el formulario de comentario y la información de contacto -->
+            <div class="col-lg-6">
+                <div class="contact-grid">
+                    <h4 class="contact-title">Deja tu comentario</h4>
+                    <form>
+                        <div class="form-group">
+                            <label for="nombre">Nombre</label>
+                            <input type="text" class="form-control" id="nombre" placeholder="Escribe tu nombre">
+                        </div>
+                        <div class="form-group">
+                            <label for="correo">Correo Electrónico</label>
+                            <input type="email" class="form-control" id="correo" placeholder="Escribe tu correo">
+                        </div>
+                        <div class="form-group">
+                            <label for="comentario">Comentario</label>
+                            <textarea class="form-control" id="comentario" rows="6" placeholder="Escribe tu comentario aquí"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
     </div>
+
+    <!-- Agrega los enlaces a los archivos JavaScript de Bootstrap y jQuery si los necesitas -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
+
+
+
+
 
